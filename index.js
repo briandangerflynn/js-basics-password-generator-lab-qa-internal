@@ -3,7 +3,8 @@ window.addEventListener("load", () => {
   caps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   capsArray = caps.split('')
   
-  lowers = ""
+  lowers = "abcdefghijklmnopqrstuvwxyz"
+  lowersArray = lowers.split('')
   
   //start your code here
   const button = document.querySelector("#button")
