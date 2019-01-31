@@ -3,5 +3,6 @@ window.addEventListener("load", () => {
   const button = document.querySelector("#button")
   button.addEventListener("click", () =>{
     input = document.querySelector("#input").value
+    console.log(input)
   })
 });
