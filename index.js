@@ -6,6 +6,8 @@ window.addEventListener("load", () => {
   lowers = "abcdefghijklmnopqrstuvwxyz"
   lowersArray = lowers.split('')
   
+  specials = ""
+  
   //start your code here
   const button = document.querySelector("#button")
   const output = document.querySelector("output")
