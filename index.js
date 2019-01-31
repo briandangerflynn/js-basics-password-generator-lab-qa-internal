@@ -5,6 +5,6 @@ window.addEventListener("load", () => {
   
   button.addEventListener("click", () =>{
     input = parseInt(document.querySelector("#input").value)
-  
+    output.innerText = input
   })
 });
