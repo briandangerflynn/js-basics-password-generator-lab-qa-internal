@@ -6,7 +6,8 @@ window.addEventListener("load", () => {
   lowers = "abcdefghijklmnopqrstuvwxyz"
   lowersArray = lowers.split('')
   
-  specials = ""
+  specials = "!#$%&()*+,-./:;<=>?@[\]^_{|}~"
+  specialsArray = specials.split('')
   
   //start your code here
   const button = document.querySelector("#button")
