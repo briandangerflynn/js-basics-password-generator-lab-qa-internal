@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-  
+  console.log("hello")
   caps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   capsArray = caps.split('')
   
